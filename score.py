@@ -4,7 +4,7 @@ class Score(Turtle):
         super().__init__()
         with open("high score.txt","r") as file:
             high_score=file.read()
-        self.score=0
+        self.score=5
         self.high_score=high_score
         self.penup()
         self.hideturtle()
